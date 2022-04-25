@@ -1,12 +1,12 @@
 import './App.css';
+import Comments from './Components/Comments.jsx';
+import CreateComment from './Components/CreateComment.jsx';
 
 function App() {
   return (
     <div className="App">
-    <h1>
-
-    hello world
-    </h1>
+    <Comments/>
+    <CreateComment/>
     </div>
   );
 }
